@@ -1,0 +1,44 @@
+
+
+ * {
+/*	 -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+*/
+}
+
+.toolpad * {
+	 -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+
+/***********************
+	-	BASICS 	-
+***********************/
+
+
+.prevnext		{	width:615px;height:23px;position: fixed; left:50%; margin-left:-272px;top:-2px;z-index:1000;
+
+}
+
+.prevnext a		{	background:#e33a0c;font-size:10px; text-decoration: none !important;  color:#fff !important;
+					margin-right:2px;padding:3px 8px; border-radius:0px 0px 5px 5px; -moz-border-radius:0px 0px 5px 5px;-webkit-border-radius:0px 0px 5px 5px;
+					-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+					filter: alpha(opacity=50);
+					-moz-opacity: 0.5;
+					-khtml-opacity: 0.5;
+					opacity: 0.5;
+}
+.prevnext a.active,
+.prevnext a:hover,
+.prevnext a:hover *	{	color:#fff !important;
+						-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+					  filter: alpha(opacity=100);
+					  -moz-opacity: 1;
+					  -khtml-opacity: 1;
+					  opacity: 1;
+					 }
